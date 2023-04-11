@@ -1,0 +1,134 @@
+.product {
+
+  &__btns {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin: 40px 0 25px;
+    align-items: center;
+
+    svg {
+      fill: #72A479;
+      border-radius: 50%;
+      &:hover {
+        background: #fff;
+      }
+    }
+
+    &__icon {
+      cursor: pointer;
+    }
+
+    &__btn {
+      font-weight: 600;
+      font-size: 16px;
+      border: none;
+      outline: none;
+    }
+  }
+
+  &__card {
+    display: flex;
+    margin-bottom: 40px;
+
+    &-buy {
+      display: flex;
+      flex-direction: row;
+      column-gap: 10px;
+      align-items: center;
+    }
+
+    &-left {
+      width: 50%;
+
+      img {
+        width: 100%;
+        border-radius: 20px 0 0 20px;
+        object-fit: cover;
+        height: 100%;
+      }
+    }
+
+    &-right {
+      width: 50%;
+      padding: 38px 151px 25px 50px;
+      background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+      border-radius: 0 10px 10px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &-content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+      }
+    }
+
+    &-title {
+      font-weight: 700;
+      font-size: 25px;
+    }
+
+    &-desc {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #CFCFCF;
+    }
+
+    &-weight {
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+    &-btns {
+      display: flex;
+      flex-direction: row;
+      column-gap: 20px;
+      align-items: center;
+
+    }
+
+    &-btn {
+      padding: 16px 16px 17px 20px;
+      background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+      border-radius: 10px;
+      border: none;
+      position: relative;
+
+      &::before {
+        content: '';
+        width: 1px;
+        height: 38px;
+        background: #ffffff30;
+        position: absolute;
+        top: 5px;
+        right: 47px;
+      }
+    }
+
+    &-composition {
+      display: flex;
+      flex-direction: row;
+      column-gap: 50px;
+    }
+
+    &-text {
+
+      p {
+        font-weight: 500;
+        font-size: 12px;
+        margin: 10px 0;
+      }
+
+      span {
+        font-weight: 300;
+        font-size: 12px;
+      }
+    }
+    &-num {
+      margin-top: 10px;
+    }
+  }
+}

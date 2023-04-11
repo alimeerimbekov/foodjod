@@ -1,0 +1,27 @@
+.begin {
+  background: url("../assets/images/beginBg.png") center/cover no-repeat;
+  padding: 77px 0 123px;
+
+
+  &__content {
+    width: 60%;
+    text-align: center;
+    transform: rotate(-8.02deg) skew(-12deg);
+
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 109.2%;
+    text-transform: uppercase;
+  }
+
+  &__quest {
+    width: 170px;
+    margin: 70px auto 0;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    padding: 6px 8px;
+  }
+
+}
